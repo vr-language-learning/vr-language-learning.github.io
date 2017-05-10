@@ -32,14 +32,14 @@ textarea {
  */
 
 ::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
+    background: #fff;
+    color: #000;
     text-shadow: none;
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #fff;
+    color: #000;
     text-shadow: none;
 }
 
@@ -139,6 +139,7 @@ a:hover, a:visited, a:focus {
 	text-transform: uppercase;
 	color: #ffffff;
 	margin-top: 20px;
+	margin-left: 0;
 }
 
 .menu h1.logo a:hover {
@@ -298,7 +299,6 @@ a .img-flag {
 	color:#ffffff;
 	margin-top: 90px;
 	padding-bottom: 30px;
-	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
 }
@@ -307,17 +307,32 @@ a .img-flag {
   #headerwrap h1 {
     font-size: 100px;
   }
+
+  h3 {
+  	font-size: 19px;
+  	margin: 10px 0;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 748px) {
   #headerwrap h1 {
-    font-size: 60px;
+    font-size: 50px;
+  }
+
+   h3 {
+  	font-size: 17px;
+  	margin: 10px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   #headerwrap h1 {
     font-size: 40px;
+  }
+
+  h3 {
+  	font-size: 15px;
+  	margin: 10px 0;
   }
 }
 
@@ -495,6 +510,9 @@ img.img-center {
 	color: #ffffff;
 }
 
+
+
+
 /* Gallery Configuration */
 .photo-wrapper {
   display: block;
@@ -546,7 +564,6 @@ img.img-center {
 .desc {
 	margin-top: 25px;
 }
-
 
 /* Download section */
 #downloadwrap {
