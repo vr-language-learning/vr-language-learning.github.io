@@ -297,7 +297,8 @@ a .img-flag {
 
 #headerwrap h1 {
 	color:#ffffff;
-	margin-top: 90px;
+	margin: 90px 0 0 0;
+	text-align: center;
 	padding-bottom: 30px;
 	font-size: 100px;
 	font-weight: bold;
